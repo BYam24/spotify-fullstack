@@ -11,7 +11,8 @@ const PlayerContextProvider  = (props) => {
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const url = 'http://localhost:4000' 
+  // const url = 'http://localhost:4000' 
+  const url = 'https://spotify-backend-0f1n.onrender.com'
   //backend url
 
   const [songsData, setSongsData] = useState([]);
