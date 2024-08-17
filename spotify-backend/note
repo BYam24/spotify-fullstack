@@ -1,0 +1,46 @@
+npm init
+npm install cloudinary cors dotenv express mongoose multer nodemon
+
+cloudinary - to restore img and mp3 file
+cors - connect front and backend
+dotenv - to restore env var
+express - create backend api
+mongoose - to connect to db
+multer - connect img to mp3 file
+nodemon - create script to run our project
+
+store api key in .env
+
+to run: npm run server (the script name)
+
+on cloudinary, have api key, use to connect to DB
+
+
+
+
+xAn API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications. It defines the methods and data structures that developers can use to interact with the software components or systems. APIs allow different software systems to communicate with each other, enabling the integration of various functionalities and services.
+
+Here are some key points about APIs:
+
+Types of APIs:
+
+Web APIs: Used for communication between a client (like a web browser or mobile app) and a server over the internet, typically using HTTP/HTTPS protocols. Examples include REST (Representational State Transfer) and SOAP (Simple Object Access Protocol).
+Library/Framework APIs: Provided by libraries or frameworks to allow developers to use predefined functions and classes in their code.
+Operating System APIs: Allow applications to interact with the operating system. Examples include Windows API, POSIX API, etc.
+Database APIs: Enable interaction with databases to perform operations like querying and updating data. Examples include SQL and NoSQL database APIs.
+Components of an API:
+
+Endpoint: A specific URL where an API can be accessed.
+Request: The call made to the API to perform a certain action or retrieve data. It usually includes the HTTP method (GET, POST, PUT, DELETE), headers, and body.
+Response: The data returned by the API after processing a request. It includes the status code (indicating success or error) and the data payload (usually in JSON or XML format).
+Benefits of Using APIs:
+
+Modularity: Allows developers to use specific functionalities without needing to understand the entire system.
+Reusability: Common functionalities can be reused across different applications.
+Scalability: Facilitates building scalable systems by integrating various services.
+Interoperability: Enables different systems to work together, regardless of the underlying technologies.
+Security Considerations:
+
+Authentication: Verifying the identity of the user or system making the request (e.g., API keys, OAuth tokens).
+Authorization: Determining what actions the authenticated user or system is allowed to perform.
+Encryption: Ensuring data privacy and integrity by encrypting the data transmitted between the client and the server.
